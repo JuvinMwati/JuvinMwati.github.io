@@ -58,7 +58,7 @@ plugins:
 # ======================
 author:
   name: "Juvin Mwati"
-  avatar: "/assets/images/bio-photo.jpg"
+  avatar: "/assets/bio-photo.jpg"
   bio: "Behind every secure network stands a sleepless analyst."
   links:
     - label: "Website"
