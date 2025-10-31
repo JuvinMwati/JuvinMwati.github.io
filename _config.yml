@@ -1,4 +1,5 @@
-
+# Welcome to Jekyll!
+#
 # This config file contains settings that affect your whole site.
 # You usually only need to set this up once.
 
@@ -57,7 +58,7 @@ plugins:
 # ======================
 author:
   name: "Juvin Mwati"
-  avatar: "/assets/bio-photo.jpg"
+  avatar: "/assets/images/bio-photo.jpg"
   bio: "Behind every secure network stands a sleepless analyst."
   links:
     - label: "Website"
@@ -118,46 +119,6 @@ category_archive:
   type: liquid
   path: /categories/
 
-tag_archive:
-  type: liquid
-  path: /tags/
-      url: "https://instagram.com/"
-
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-category_archive:
-  type: liquid
-  path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
